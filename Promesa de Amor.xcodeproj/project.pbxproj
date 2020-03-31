@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1C354112432D66200D70554 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C354102432D66200D70554 /* AppDelegate.swift */; };
+		B1C354132432D66200D70554 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C354122432D66200D70554 /* SceneDelegate.swift */; };
+		B1C354152432D66200D70554 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C354142432D66200D70554 /* ViewController.swift */; };
+		B1C354182432D66200D70554 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1C354162432D66200D70554 /* Main.storyboard */; };
+		B1C3541A2432D66300D70554 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1C354192432D66300D70554 /* Assets.xcassets */; };
+		B1C3541D2432D66300D70554 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1C3541B2432D66300D70554 /* LaunchScreen.storyboard */; };
+		B1C354282432D66300D70554 /* Promesa_de_AmorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C354272432D66300D70554 /* Promesa_de_AmorTests.swift */; };
+		B1C354332432D66300D70554 /* Promesa_de_AmorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C354322432D66300D70554 /* Promesa_de_AmorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1C354242432D66300D70554 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1C354052432D66200D70554 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1C3540C2432D66200D70554;
+			remoteInfo = "Promesa de Amor";
+		};
+		B1C3542F2432D66300D70554 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1C354052432D66200D70554 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1C3540C2432D66200D70554;
+			remoteInfo = "Promesa de Amor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B1C3540D2432D66200D70554 /* Promesa de Amor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Promesa de Amor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1C354102432D66200D70554 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B1C354122432D66200D70554 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B1C354142432D66200D70554 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B1C354172432D66200D70554 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B1C354192432D66300D70554 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1C3541C2432D66300D70554 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B1C3541E2432D66300D70554 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1C354232432D66300D70554 /* Promesa de AmorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Promesa de AmorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1C354272432D66300D70554 /* Promesa_de_AmorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Promesa_de_AmorTests.swift; sourceTree = "<group>"; };
+		B1C354292432D66300D70554 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1C3542E2432D66300D70554 /* Promesa de AmorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Promesa de AmorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1C354322432D66300D70554 /* Promesa_de_AmorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Promesa_de_AmorUITests.swift; sourceTree = "<group>"; };
+		B1C354342432D66300D70554 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1C3540A2432D66200D70554 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1C354202432D66300D70554 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1C3542B2432D66300D70554 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1C354042432D66200D70554 = {
+			isa = PBXGroup;
+			children = (
+				B1C3540F2432D66200D70554 /* Promesa de Amor */,
+				B1C354262432D66300D70554 /* Promesa de AmorTests */,
+				B1C354312432D66300D70554 /* Promesa de AmorUITests */,
+				B1C3540E2432D66200D70554 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1C3540E2432D66200D70554 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1C3540D2432D66200D70554 /* Promesa de Amor.app */,
+				B1C354232432D66300D70554 /* Promesa de AmorTests.xctest */,
+				B1C3542E2432D66300D70554 /* Promesa de AmorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1C3540F2432D66200D70554 /* Promesa de Amor */ = {
+			isa = PBXGroup;
+			children = (
+				B1C354102432D66200D70554 /* AppDelegate.swift */,
+				B1C354122432D66200D70554 /* SceneDelegate.swift */,
+				B1C354142432D66200D70554 /* ViewController.swift */,
+				B1C354162432D66200D70554 /* Main.storyboard */,
+				B1C354192432D66300D70554 /* Assets.xcassets */,
+				B1C3541B2432D66300D70554 /* LaunchScreen.storyboard */,
+				B1C3541E2432D66300D70554 /* Info.plist */,
+			);
+			path = "Promesa de Amor";
+			sourceTree = "<group>";
+		};
+		B1C354262432D66300D70554 /* Promesa de AmorTests */ = {
+			isa = PBXGroup;
+			children = (
+				B1C354272432D66300D70554 /* Promesa_de_AmorTests.swift */,
+				B1C354292432D66300D70554 /* Info.plist */,
+			);
+			path = "Promesa de AmorTests";
+			sourceTree = "<group>";
+		};
+		B1C354312432D66300D70554 /* Promesa de AmorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B1C354322432D66300D70554 /* Promesa_de_AmorUITests.swift */,
+				B1C354342432D66300D70554 /* Info.plist */,
+			);
+			path = "Promesa de AmorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1C3540C2432D66200D70554 /* Promesa de Amor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1C354372432D66300D70554 /* Build configuration list for PBXNativeTarget "Promesa de Amor" */;
+			buildPhases = (
+				B1C354092432D66200D70554 /* Sources */,
+				B1C3540A2432D66200D70554 /* Frameworks */,
+				B1C3540B2432D66200D70554 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Promesa de Amor";
+			productName = "Promesa de Amor";
+			productReference = B1C3540D2432D66200D70554 /* Promesa de Amor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B1C354222432D66300D70554 /* Promesa de AmorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1C3543A2432D66300D70554 /* Build configuration list for PBXNativeTarget "Promesa de AmorTests" */;
+			buildPhases = (
+				B1C3541F2432D66300D70554 /* Sources */,
+				B1C354202432D66300D70554 /* Frameworks */,
+				B1C354212432D66300D70554 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1C354252432D66300D70554 /* PBXTargetDependency */,
+			);
+			name = "Promesa de AmorTests";
+			productName = "Promesa de AmorTests";
+			productReference = B1C354232432D66300D70554 /* Promesa de AmorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B1C3542D2432D66300D70554 /* Promesa de AmorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1C3543D2432D66300D70554 /* Build configuration list for PBXNativeTarget "Promesa de AmorUITests" */;
+			buildPhases = (
+				B1C3542A2432D66300D70554 /* Sources */,
+				B1C3542B2432D66300D70554 /* Frameworks */,
+				B1C3542C2432D66300D70554 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1C354302432D66300D70554 /* PBXTargetDependency */,
+			);
+			name = "Promesa de AmorUITests";
+			productName = "Promesa de AmorUITests";
+			productReference = B1C3542E2432D66300D70554 /* Promesa de AmorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1C354052432D66200D70554 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = Rayout;
+				TargetAttributes = {
+					B1C3540C2432D66200D70554 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					B1C354222432D66300D70554 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = B1C3540C2432D66200D70554;
+					};
+					B1C3542D2432D66300D70554 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = B1C3540C2432D66200D70554;
+					};
+				};
+			};
+			buildConfigurationList = B1C354082432D66200D70554 /* Build configuration list for PBXProject "Promesa de Amor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1C354042432D66200D70554;
+			productRefGroup = B1C3540E2432D66200D70554 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1C3540C2432D66200D70554 /* Promesa de Amor */,
+				B1C354222432D66300D70554 /* Promesa de AmorTests */,
+				B1C3542D2432D66300D70554 /* Promesa de AmorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1C3540B2432D66200D70554 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1C3541D2432D66300D70554 /* LaunchScreen.storyboard in Resources */,
+				B1C3541A2432D66300D70554 /* Assets.xcassets in Resources */,
+				B1C354182432D66200D70554 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1C354212432D66300D70554 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1C3542C2432D66300D70554 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1C354092432D66200D70554 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1C354152432D66200D70554 /* ViewController.swift in Sources */,
+				B1C354112432D66200D70554 /* AppDelegate.swift in Sources */,
+				B1C354132432D66200D70554 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1C3541F2432D66300D70554 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1C354282432D66300D70554 /* Promesa_de_AmorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1C3542A2432D66300D70554 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1C354332432D66300D70554 /* Promesa_de_AmorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1C354252432D66300D70554 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1C3540C2432D66200D70554 /* Promesa de Amor */;
+			targetProxy = B1C354242432D66300D70554 /* PBXContainerItemProxy */;
+		};
+		B1C354302432D66300D70554 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1C3540C2432D66200D70554 /* Promesa de Amor */;
+			targetProxy = B1C3542F2432D66300D70554 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B1C354162432D66200D70554 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1C354172432D66200D70554 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B1C3541B2432D66300D70554 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1C3541C2432D66300D70554 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1C354352432D66300D70554 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B1C354362432D66300D70554 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1C354382432D66300D70554 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D9V95N6BGV;
+				INFOPLIST_FILE = "Promesa de Amor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cl.rayout.Promesa-de-Amor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1C354392432D66300D70554 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D9V95N6BGV;
+				INFOPLIST_FILE = "Promesa de Amor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cl.rayout.Promesa-de-Amor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B1C3543B2432D66300D70554 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D9V95N6BGV;
+				INFOPLIST_FILE = "Promesa de AmorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cl.rayout.Promesa-de-AmorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Promesa de Amor.app/Promesa de Amor";
+			};
+			name = Debug;
+		};
+		B1C3543C2432D66300D70554 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D9V95N6BGV;
+				INFOPLIST_FILE = "Promesa de AmorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cl.rayout.Promesa-de-AmorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Promesa de Amor.app/Promesa de Amor";
+			};
+			name = Release;
+		};
+		B1C3543E2432D66300D70554 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D9V95N6BGV;
+				INFOPLIST_FILE = "Promesa de AmorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cl.rayout.Promesa-de-AmorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Promesa de Amor";
+			};
+			name = Debug;
+		};
+		B1C3543F2432D66300D70554 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D9V95N6BGV;
+				INFOPLIST_FILE = "Promesa de AmorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cl.rayout.Promesa-de-AmorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Promesa de Amor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1C354082432D66200D70554 /* Build configuration list for PBXProject "Promesa de Amor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1C354352432D66300D70554 /* Debug */,
+				B1C354362432D66300D70554 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1C354372432D66300D70554 /* Build configuration list for PBXNativeTarget "Promesa de Amor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1C354382432D66300D70554 /* Debug */,
+				B1C354392432D66300D70554 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1C3543A2432D66300D70554 /* Build configuration list for PBXNativeTarget "Promesa de AmorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1C3543B2432D66300D70554 /* Debug */,
+				B1C3543C2432D66300D70554 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1C3543D2432D66300D70554 /* Build configuration list for PBXNativeTarget "Promesa de AmorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1C3543E2432D66300D70554 /* Debug */,
+				B1C3543F2432D66300D70554 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1C354052432D66200D70554 /* Project object */;
+}
