@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B410021973E9D2E8A327D41 /* Pods_Promesa_de_AmorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BA1109E8FA494616D3745CF /* Pods_Promesa_de_AmorTests.framework */; };
+		1BF8E38A508957B6AC5F4D7B /* Pods_Promesa_de_Amor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40BFAB0D399ACB32CC8831A1 /* Pods_Promesa_de_Amor.framework */; };
+		981CBD24F09828E84DD18B1C /* Pods_Promesa_de_Amor_Promesa_de_AmorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20EE42041E41C1DAC2998904 /* Pods_Promesa_de_Amor_Promesa_de_AmorUITests.framework */; };
 		B1C354112432D66200D70554 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C354102432D66200D70554 /* AppDelegate.swift */; };
 		B1C354132432D66200D70554 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C354122432D66200D70554 /* SceneDelegate.swift */; };
 		B1C354152432D66200D70554 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C354142432D66200D70554 /* ViewController.swift */; };
@@ -15,6 +18,20 @@
 		B1C3541D2432D66300D70554 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1C3541B2432D66300D70554 /* LaunchScreen.storyboard */; };
 		B1C354282432D66300D70554 /* Promesa_de_AmorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C354272432D66300D70554 /* Promesa_de_AmorTests.swift */; };
 		B1C354332432D66300D70554 /* Promesa_de_AmorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C354322432D66300D70554 /* Promesa_de_AmorUITests.swift */; };
+		B1C354432432DD3400D70554 /* hearts.json in Resources */ = {isa = PBXBuildFile; fileRef = B1C354422432DD3400D70554 /* hearts.json */; };
+		B1C354452432E4B800D70554 /* couple.json in Resources */ = {isa = PBXBuildFile; fileRef = B1C354442432E4B800D70554 /* couple.json */; };
+		B1C354492432F14000D70554 /* flower.json in Resources */ = {isa = PBXBuildFile; fileRef = B1C354462432F14000D70554 /* flower.json */; };
+		B1C3544A2432F14000D70554 /* heart_filling.json in Resources */ = {isa = PBXBuildFile; fileRef = B1C354472432F14000D70554 /* heart_filling.json */; };
+		B1C3544B2432F14000D70554 /* couple_kissing.json in Resources */ = {isa = PBXBuildFile; fileRef = B1C354482432F14000D70554 /* couple_kissing.json */; };
+		B1C3544F2432F31F00D70554 /* matrimonio.json in Resources */ = {isa = PBXBuildFile; fileRef = B1C3544C2432F31F00D70554 /* matrimonio.json */; };
+		B1C354502432F31F00D70554 /* chat.json in Resources */ = {isa = PBXBuildFile; fileRef = B1C3544D2432F31F00D70554 /* chat.json */; };
+		B1C354512432F31F00D70554 /* love.json in Resources */ = {isa = PBXBuildFile; fileRef = B1C3544E2432F31F00D70554 /* love.json */; };
+		B1C354532432F85300D70554 /* ViewControler2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C354522432F85300D70554 /* ViewControler2.swift */; };
+		B1C354552432FA5500D70554 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C354542432FA5500D70554 /* ViewController3.swift */; };
+		B1C354572432FC9D00D70554 /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C354562432FC9C00D70554 /* ViewController4.swift */; };
+		B1C354592433B30000D70554 /* ViewController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C354582433B30000D70554 /* ViewController5.swift */; };
+		B1C3545B2433B7A300D70554 /* ViewController6.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C3545A2433B7A300D70554 /* ViewController6.swift */; };
+		B1C3545D2433B7C600D70554 /* ViewController7.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C3545C2433B7C600D70554 /* ViewController7.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +52,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B1C3540D2432D66200D70554 /* Promesa de Amor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Promesa de Amor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BA1109E8FA494616D3745CF /* Pods_Promesa_de_AmorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Promesa_de_AmorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12AB03DF581BDA245EA5C6BF /* Pods-Promesa de Amor-Promesa de AmorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Promesa de Amor-Promesa de AmorUITests.debug.xcconfig"; path = "Target Support Files/Pods-Promesa de Amor-Promesa de AmorUITests/Pods-Promesa de Amor-Promesa de AmorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		20EE42041E41C1DAC2998904 /* Pods_Promesa_de_Amor_Promesa_de_AmorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Promesa_de_Amor_Promesa_de_AmorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F2B2D6013085269D70F0D29 /* Pods-Promesa de Amor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Promesa de Amor.debug.xcconfig"; path = "Target Support Files/Pods-Promesa de Amor/Pods-Promesa de Amor.debug.xcconfig"; sourceTree = "<group>"; };
+		3DD5ED677C5D314684254FC9 /* Pods-Promesa de Amor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Promesa de Amor.release.xcconfig"; path = "Target Support Files/Pods-Promesa de Amor/Pods-Promesa de Amor.release.xcconfig"; sourceTree = "<group>"; };
+		40BFAB0D399ACB32CC8831A1 /* Pods_Promesa_de_Amor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Promesa_de_Amor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5600E1F8ED29DAB9244C273F /* Pods-Promesa de Amor-Promesa de AmorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Promesa de Amor-Promesa de AmorUITests.release.xcconfig"; path = "Target Support Files/Pods-Promesa de Amor-Promesa de AmorUITests/Pods-Promesa de Amor-Promesa de AmorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		580C44742D936E6B94B76885 /* Pods-Promesa de AmorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Promesa de AmorTests.debug.xcconfig"; path = "Target Support Files/Pods-Promesa de AmorTests/Pods-Promesa de AmorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6512B9CB9065FA62C7175CCE /* Pods-Promesa de AmorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Promesa de AmorTests.release.xcconfig"; path = "Target Support Files/Pods-Promesa de AmorTests/Pods-Promesa de AmorTests.release.xcconfig"; sourceTree = "<group>"; };
+		B1C3540D2432D66200D70554 /* Promesa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Promesa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1C354102432D66200D70554 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1C354122432D66200D70554 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B1C354142432D66200D70554 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +75,20 @@
 		B1C3542E2432D66300D70554 /* Promesa de AmorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Promesa de AmorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1C354322432D66300D70554 /* Promesa_de_AmorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Promesa_de_AmorUITests.swift; sourceTree = "<group>"; };
 		B1C354342432D66300D70554 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1C354422432DD3400D70554 /* hearts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = hearts.json; path = ../../../../../../Users/tsunderella/Downloads/hearts.json; sourceTree = "<group>"; };
+		B1C354442432E4B800D70554 /* couple.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = couple.json; path = ../../../../../../Users/tsunderella/Downloads/couple.json; sourceTree = "<group>"; };
+		B1C354462432F14000D70554 /* flower.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = flower.json; path = ../../../../../../Users/tsunderella/Downloads/flower.json; sourceTree = "<group>"; };
+		B1C354472432F14000D70554 /* heart_filling.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = heart_filling.json; path = ../../../../../../Users/tsunderella/Downloads/heart_filling.json; sourceTree = "<group>"; };
+		B1C354482432F14000D70554 /* couple_kissing.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = couple_kissing.json; path = ../../../../../../Users/tsunderella/Downloads/couple_kissing.json; sourceTree = "<group>"; };
+		B1C3544C2432F31F00D70554 /* matrimonio.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = matrimonio.json; path = ../../../../../../Users/tsunderella/Downloads/matrimonio.json; sourceTree = "<group>"; };
+		B1C3544D2432F31F00D70554 /* chat.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = chat.json; path = ../../../../../../Users/tsunderella/Downloads/chat.json; sourceTree = "<group>"; };
+		B1C3544E2432F31F00D70554 /* love.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = love.json; path = ../../../../../../Users/tsunderella/Downloads/love.json; sourceTree = "<group>"; };
+		B1C354522432F85300D70554 /* ViewControler2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControler2.swift; sourceTree = "<group>"; };
+		B1C354542432FA5500D70554 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		B1C354562432FC9C00D70554 /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
+		B1C354582433B30000D70554 /* ViewController5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController5.swift; sourceTree = "<group>"; };
+		B1C3545A2433B7A300D70554 /* ViewController6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController6.swift; sourceTree = "<group>"; };
+		B1C3545C2433B7C600D70554 /* ViewController7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController7.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BF8E38A508957B6AC5F4D7B /* Pods_Promesa_de_Amor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B410021973E9D2E8A327D41 /* Pods_Promesa_de_AmorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +112,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				981CBD24F09828E84DD18B1C /* Pods_Promesa_de_Amor_Promesa_de_AmorUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12BF7D53847D0FA5B407591F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40BFAB0D399ACB32CC8831A1 /* Pods_Promesa_de_Amor.framework */,
+				20EE42041E41C1DAC2998904 /* Pods_Promesa_de_Amor_Promesa_de_AmorUITests.framework */,
+				0BA1109E8FA494616D3745CF /* Pods_Promesa_de_AmorTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		671086A4CE4E5B9DE4FB925A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F2B2D6013085269D70F0D29 /* Pods-Promesa de Amor.debug.xcconfig */,
+				3DD5ED677C5D314684254FC9 /* Pods-Promesa de Amor.release.xcconfig */,
+				12AB03DF581BDA245EA5C6BF /* Pods-Promesa de Amor-Promesa de AmorUITests.debug.xcconfig */,
+				5600E1F8ED29DAB9244C273F /* Pods-Promesa de Amor-Promesa de AmorUITests.release.xcconfig */,
+				580C44742D936E6B94B76885 /* Pods-Promesa de AmorTests.debug.xcconfig */,
+				6512B9CB9065FA62C7175CCE /* Pods-Promesa de AmorTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B1C354042432D66200D70554 = {
 			isa = PBXGroup;
 			children = (
@@ -83,13 +149,15 @@
 				B1C354262432D66300D70554 /* Promesa de AmorTests */,
 				B1C354312432D66300D70554 /* Promesa de AmorUITests */,
 				B1C3540E2432D66200D70554 /* Products */,
+				671086A4CE4E5B9DE4FB925A /* Pods */,
+				12BF7D53847D0FA5B407591F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		B1C3540E2432D66200D70554 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B1C3540D2432D66200D70554 /* Promesa de Amor.app */,
+				B1C3540D2432D66200D70554 /* Promesa.app */,
 				B1C354232432D66300D70554 /* Promesa de AmorTests.xctest */,
 				B1C3542E2432D66300D70554 /* Promesa de AmorUITests.xctest */,
 			);
@@ -100,12 +168,26 @@
 			isa = PBXGroup;
 			children = (
 				B1C354102432D66200D70554 /* AppDelegate.swift */,
+				B1C3544D2432F31F00D70554 /* chat.json */,
+				B1C3544E2432F31F00D70554 /* love.json */,
+				B1C3544C2432F31F00D70554 /* matrimonio.json */,
 				B1C354122432D66200D70554 /* SceneDelegate.swift */,
 				B1C354142432D66200D70554 /* ViewController.swift */,
 				B1C354162432D66200D70554 /* Main.storyboard */,
+				B1C354482432F14000D70554 /* couple_kissing.json */,
+				B1C354462432F14000D70554 /* flower.json */,
+				B1C354472432F14000D70554 /* heart_filling.json */,
+				B1C354442432E4B800D70554 /* couple.json */,
 				B1C354192432D66300D70554 /* Assets.xcassets */,
 				B1C3541B2432D66300D70554 /* LaunchScreen.storyboard */,
 				B1C3541E2432D66300D70554 /* Info.plist */,
+				B1C354422432DD3400D70554 /* hearts.json */,
+				B1C354522432F85300D70554 /* ViewControler2.swift */,
+				B1C354542432FA5500D70554 /* ViewController3.swift */,
+				B1C354562432FC9C00D70554 /* ViewController4.swift */,
+				B1C354582433B30000D70554 /* ViewController5.swift */,
+				B1C3545A2433B7A300D70554 /* ViewController6.swift */,
+				B1C3545C2433B7C600D70554 /* ViewController7.swift */,
 			);
 			path = "Promesa de Amor";
 			sourceTree = "<group>";
@@ -135,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B1C354372432D66300D70554 /* Build configuration list for PBXNativeTarget "Promesa de Amor" */;
 			buildPhases = (
+				9B1B1A1BDDAB541D6BBB0ED1 /* [CP] Check Pods Manifest.lock */,
 				B1C354092432D66200D70554 /* Sources */,
 				B1C3540A2432D66200D70554 /* Frameworks */,
 				B1C3540B2432D66200D70554 /* Resources */,
+				233826D448282D5FE83303DC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -145,13 +229,14 @@
 			);
 			name = "Promesa de Amor";
 			productName = "Promesa de Amor";
-			productReference = B1C3540D2432D66200D70554 /* Promesa de Amor.app */;
+			productReference = B1C3540D2432D66200D70554 /* Promesa.app */;
 			productType = "com.apple.product-type.application";
 		};
 		B1C354222432D66300D70554 /* Promesa de AmorTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B1C3543A2432D66300D70554 /* Build configuration list for PBXNativeTarget "Promesa de AmorTests" */;
 			buildPhases = (
+				C6A3881C1A2D39AACF799341 /* [CP] Check Pods Manifest.lock */,
 				B1C3541F2432D66300D70554 /* Sources */,
 				B1C354202432D66300D70554 /* Frameworks */,
 				B1C354212432D66300D70554 /* Resources */,
@@ -170,9 +255,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B1C3543D2432D66300D70554 /* Build configuration list for PBXNativeTarget "Promesa de AmorUITests" */;
 			buildPhases = (
+				834B8652B3041679987784CE /* [CP] Check Pods Manifest.lock */,
 				B1C3542A2432D66300D70554 /* Sources */,
 				B1C3542B2432D66300D70554 /* Frameworks */,
 				B1C3542C2432D66300D70554 /* Resources */,
+				15DFB33718042F02F1A48C59 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,9 +319,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1C354512432F31F00D70554 /* love.json in Resources */,
+				B1C354492432F14000D70554 /* flower.json in Resources */,
+				B1C354502432F31F00D70554 /* chat.json in Resources */,
+				B1C3544A2432F14000D70554 /* heart_filling.json in Resources */,
+				B1C3544F2432F31F00D70554 /* matrimonio.json in Resources */,
+				B1C3544B2432F14000D70554 /* couple_kissing.json in Resources */,
 				B1C3541D2432D66300D70554 /* LaunchScreen.storyboard in Resources */,
 				B1C3541A2432D66300D70554 /* Assets.xcassets in Resources */,
 				B1C354182432D66200D70554 /* Main.storyboard in Resources */,
+				B1C354432432DD3400D70554 /* hearts.json in Resources */,
+				B1C354452432E4B800D70554 /* couple.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +349,123 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		15DFB33718042F02F1A48C59 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Promesa de Amor-Promesa de AmorUITests/Pods-Promesa de Amor-Promesa de AmorUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Promesa de Amor-Promesa de AmorUITests/Pods-Promesa de Amor-Promesa de AmorUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Promesa de Amor-Promesa de AmorUITests/Pods-Promesa de Amor-Promesa de AmorUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		233826D448282D5FE83303DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Promesa de Amor/Pods-Promesa de Amor-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Promesa de Amor/Pods-Promesa de Amor-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Promesa de Amor/Pods-Promesa de Amor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		834B8652B3041679987784CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Promesa de Amor-Promesa de AmorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B1B1A1BDDAB541D6BBB0ED1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Promesa de Amor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6A3881C1A2D39AACF799341 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Promesa de AmorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B1C354092432D66200D70554 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1C354552432FA5500D70554 /* ViewController3.swift in Sources */,
+				B1C354572432FC9D00D70554 /* ViewController4.swift in Sources */,
+				B1C354532432F85300D70554 /* ViewControler2.swift in Sources */,
 				B1C354152432D66200D70554 /* ViewController.swift in Sources */,
 				B1C354112432D66200D70554 /* AppDelegate.swift in Sources */,
+				B1C3545B2433B7A300D70554 /* ViewController6.swift in Sources */,
+				B1C3545D2433B7C600D70554 /* ViewController7.swift in Sources */,
 				B1C354132432D66200D70554 /* SceneDelegate.swift in Sources */,
+				B1C354592433B30000D70554 /* ViewController5.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,42 +636,51 @@
 		};
 		B1C354382432D66300D70554 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F2B2D6013085269D70F0D29 /* Pods-Promesa de Amor.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = D9V95N6BGV;
 				INFOPLIST_FILE = "Promesa de Amor/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "cl.rayout.Promesa-de-Amor";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = cl.rayout.promesa;
+				PRODUCT_NAME = Promesa;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		B1C354392432D66300D70554 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DD5ED677C5D314684254FC9 /* Pods-Promesa de Amor.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = D9V95N6BGV;
 				INFOPLIST_FILE = "Promesa de Amor/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "cl.rayout.Promesa-de-Amor";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = cl.rayout.promesa;
+				PRODUCT_NAME = Promesa;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		B1C3543B2432D66300D70554 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 580C44742D936E6B94B76885 /* Pods-Promesa de AmorTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +703,7 @@
 		};
 		B1C3543C2432D66300D70554 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6512B9CB9065FA62C7175CCE /* Pods-Promesa de AmorTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +726,7 @@
 		};
 		B1C3543E2432D66300D70554 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12AB03DF581BDA245EA5C6BF /* Pods-Promesa de Amor-Promesa de AmorUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +747,7 @@
 		};
 		B1C3543F2432D66300D70554 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5600E1F8ED29DAB9244C273F /* Pods-Promesa de Amor-Promesa de AmorUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
